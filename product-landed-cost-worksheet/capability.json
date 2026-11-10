@@ -1,0 +1,87 @@
+{
+  "id": "product-landed-cost-worksheet",
+  "name": "Product landed cost worksheet",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "After an import shipment lands, the owner or bookkeeper gets one worksheet: freight, duty, brokerage, insurance and inbound fees from the invoices spread over each product by a stated method, the landed unit cost beside the cost the store records, and the margin left. A person updates any cost.",
+  "directory": "https://fullypowered.ai/capabilities/product-landed-cost-worksheet/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "inventory-reorder-plan",
+    "supplier-spend-analysis",
+    "supplier-bill-review-and-payment-run-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design: set export headers that stop on a mismatch; units received checked against units invoiced; exchange rates used only as supplied; five charge types with a stop on any line that fits none; duty taken product by product from the customs entry as entered, counted once when the broker passes it on, with every customs question recorded for the broker and left unanswered; an allocation method per charge type; shares rounded to the cent with the remainder on the largest basis and a rounding check against the shipment total; the store's recorded cost as the comparison, with a percentage flag; margins at the recorded cost and the cost to enter against a floor; a new version for a late invoice; and a draft cost update list with the line for the books and a blank approval line."
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/catalog-inventory/cogs-tracking-allocation/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Counting the cost of bringing a shipment in as part of each unit's cost before it sells; a proportional share of those charges by each product's part of the shipment's value, divided by its units; keeping a sales tax the business recovers out of cost; the warning that a missing cost reads as full margin in store reports; and weighted average as one way to hold a running cost.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/catalog-inventory/cogs-tracking-allocation/evals/landed-cost-allocation-and-variance-anal/criteria.json",
+      "licence": "MIT",
+      "contribution": "Never placing a shipment's charges a second time; shares in proportion rather than equal parts; each product's share turned into a cost per unit; and actual cost set against an expected cost, marked above or below and ordered from the biggest gap down.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/catalog-inventory/cogs-tracking-allocation/evals/landed-cost-allocation-and-variance-anal/task.md",
+      "licence": "MIT",
+      "contribution": "The reminder that a shipment's charges come on bills of their own, sometimes long after the stock is on the shelf.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/catalog-inventory/cogs-tracking-allocation/evals/cogs-cost-ledger-schema-design/criteria.json",
+      "licence": "MIT",
+      "contribution": "Sharing a shipment's charges by weight, volume or units as well as by value.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    }
+  ]
+}

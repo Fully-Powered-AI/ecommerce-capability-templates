@@ -1,0 +1,85 @@
+{
+  "id": "payout-reconciliation-for-an-online-store",
+  "name": "Payout reconciliation for an online store",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Each month the bookkeeper gets every payout from the store's processors and marketplaces taken apart and tied to the bank: the orders, refunds, chargebacks and fees inside it, each fee checked against the agreed rate, every difference listed with its evidence. A person posts the entries and raises any dispute.",
+  "directory": "https://fullypowered.ai/capabilities/payout-reconciliation-for-an-online-store/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "bank-reconciliation-preparation",
+    "chargeback-response-pack",
+    "month-end-close-checklist"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work: the store's own exports as the only source, named column headings with a stop when one does not match, every difference listed with its evidence and never netted away, and a person who approves, posts and raises."
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/payments-checkout/payment-reconciliation-automation/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Setting each payout against the orders inside it and the deposit it became; a payout smaller than its sales because fees, refunds, chargebacks and reserves come out first; a chargeback carrying its own fee; processor fees checked against the agreed rate separately; unsettled recent sales not treated as faults; amounts left in their original currency; exceptions settled only by a person.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/payments-checkout/payment-reconciliation-automation/evals/matching-engine-with-tolerances/criteria.json",
+      "licence": "MIT",
+      "contribution": "Pairing records on an exact amount inside a window of days, and a tolerance expressed in cents, not as a share of the amount.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/data-analytics/marketplace-fee-reconciliation/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Each deduction compared with the channel's own fee table, kept current; fees grouped by kind; advertising held apart from the cost of selling; fees given as a share of sales; gross sales and fees recorded rather than the sum paid out; an overcharged fee as something that can be claimed back.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/data-analytics/marketplace-fee-reconciliation/evals/net-revenue-computation-and-fee-rate-tra/criteria.json",
+      "licence": "MIT",
+      "contribution": "Gross sales, not the net payout, as the revenue figure; a fee rate given as a percentage and guarded so that it is not worked out when there are no sales.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    }
+  ]
+}

@@ -28,12 +28,44 @@
       "directory": "https://fullypowered.ai/capabilities/inventory-reorder-plan/"
     },
     {
+      "id": "payout-reconciliation-for-an-online-store",
+      "name": "Payout reconciliation for an online store",
+      "version": "0.1.0",
+      "summary": "Each month the bookkeeper gets every payout from the store's processors and marketplaces taken apart and tied to the bank: the orders, refunds, chargebacks and fees inside it, each fee checked against the agreed rate, every difference listed with its evidence. A person posts the entries and raises any dispute.",
+      "path": "payout-reconciliation-for-an-online-store/",
+      "directory": "https://fullypowered.ai/capabilities/payout-reconciliation-for-an-online-store/"
+    },
+    {
+      "id": "product-landed-cost-worksheet",
+      "name": "Product landed cost worksheet",
+      "version": "0.1.0",
+      "summary": "After an import shipment lands, the owner or bookkeeper gets one worksheet: freight, duty, brokerage, insurance and inbound fees from the invoices spread over each product by a stated method, the landed unit cost beside the cost the store records, and the margin left. A person updates any cost.",
+      "path": "product-landed-cost-worksheet/",
+      "directory": "https://fullypowered.ai/capabilities/product-landed-cost-worksheet/"
+    },
+    {
       "id": "product-page-facts-gap-review",
       "name": "Product-page facts gap review",
       "version": "0.1.0",
       "summary": "Product by product, your merchandiser sees what a shopper's AI assistant needs from each page and does not get: facts the description leaves out, images with no alt text, buyer questions left unanswered. Each gap comes with a sourced draft to fill it, waiting for the owner's approval.",
       "path": "product-page-facts-gap-review/",
       "directory": "https://fullypowered.ai/capabilities/product-page-facts-gap-review/"
+    },
+    {
+      "id": "slow-moving-stock-and-markdown-plan",
+      "name": "Slow-moving stock and markdown plan",
+      "version": "0.1.0",
+      "summary": "Before a seasonal reset, the merchandiser or store owner gets one plan from the sales and stock exports: each item's sell-through and weeks of cover, the cash tied up in dead and slow stock, and a markdown plan in dated steps with the margin each leaves and a date to stop. The owner decides every price.",
+      "path": "slow-moving-stock-and-markdown-plan/",
+      "directory": "https://fullypowered.ai/capabilities/slow-moving-stock-and-markdown-plan/"
+    },
+    {
+      "id": "stock-count-reconciliation",
+      "name": "Stock count reconciliation",
+      "version": "0.1.0",
+      "summary": "After a physical count, the bookkeeper and the warehouse or store lead get every item counted beside the quantity and value in the books, each difference in units and money, what to check for it, and the items to recount. Nothing is adjusted until a person approves.",
+      "path": "stock-count-reconciliation/",
+      "directory": "https://fullypowered.ai/capabilities/stock-count-reconciliation/"
     },
     {
       "id": "store-facts-file",

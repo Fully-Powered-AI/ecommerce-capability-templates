@@ -1,0 +1,118 @@
+{
+  "id": "stock-count-reconciliation",
+  "name": "Stock count reconciliation",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "After a physical count, the bookkeeper and the warehouse or store lead get every item counted beside the quantity and value in the books, each difference in units and money, what to check for it, and the items to recount. Nothing is adjusted until a person approves.",
+  "directory": "https://fullypowered.ai/capabilities/stock-count-reconciliation/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands",
+    "industries/manufacturing",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "inventory-reorder-plan",
+    "month-end-close-checklist",
+    "bank-reconciliation-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design: default export headers for the count sheet, the book stock report and the item list, with a stop on any mismatch; the part of a difference explained by receiving, returns, damage, transfer or sample notes not yet entered in the books, never more than the difference; an ordered set of checks for a shortfall and for a surplus, with unexplained loss last and no person ever named; an equal and opposite pair of differences read as a possible mix-up of codes; recount levels applied to the unexplained part only, and a recount list ordered by money with how to recount; an item missing from a full count sent back for a recount before it is read as a loss; a stop when the book stock report cannot be narrowed to the locations counted; a default size check on count rows; and the actions for the approver, which separate bookings that bring the books up to date from adjustments whose cause was not found, give nothing to a difference still waiting for a recount, and carry a blank approval line each."
+    },
+    {
+      "kind": "third-party",
+      "repository": "skills-agents-co/skills-and-agents-library",
+      "commit": "752fb87f1cbec1afc26940c036f397357afc9af1",
+      "path": "plugins/finance-team/skills/qbo-inventory-reconciliation/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Setting a physical count against the stock in the books one item at a time rather than as a single total, working without changing the books, the point that a count made part-way through a day cannot be squared with the books for the whole day unless a timed record of the day's movements exists (so the choice is a later count or that record, and without either every item carries a caveat), and stopping when the books' report fails instead of reading the failure as no stock.",
+      "text_reused": false,
+      "notice": "notices/skills-agents-co-skills-and-agents-library-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "skills-agents-co/skills-and-agents-library",
+      "commit": "752fb87f1cbec1afc26940c036f397357afc9af1",
+      "path": "plugins/finance-team/skills/qbo-inventory-reconciliation/references/count-intake.md",
+      "licence": "MIT",
+      "contribution": "Settling the counting unit, the locations covered and whether an item missing from the sheet means none was found or nobody looked, before comparing anything; keeping the comparison to the locations actually counted, never setting a count of some locations against books for the whole business or reading that gap as a loss; and stopping on count rows that lack a code, repeat an item, hold a non-number or a negative figure, or sit far out of line with the rest.",
+      "text_reused": false,
+      "notice": "notices/skills-agents-co-skills-and-agents-library-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "skills-agents-co/skills-and-agents-library",
+      "commit": "752fb87f1cbec1afc26940c036f397357afc9af1",
+      "path": "plugins/finance-team/skills/qbo-inventory-reconciliation/references/inventory-tracked-check.md",
+      "licence": "MIT",
+      "contribution": "Checking a separate list of every tracked item, inactive ones included, before concluding that a business keeps no stock; reading a tracked item that a report leaves out as zero; keeping a real zero difference apart from a business with nothing to compare; and listing counted items that match no tracked item.",
+      "text_reused": false,
+      "notice": "notices/skills-agents-co-skills-and-agents-library-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "skills-agents-co/skills-and-agents-library",
+      "commit": "752fb87f1cbec1afc26940c036f397357afc9af1",
+      "path": "plugins/finance-team/skills/qbo-inventory-reconciliation/references/qbo-pull.md",
+      "licence": "MIT",
+      "contribution": "Reading a stock report that holds fewer items than the item list as a sign it may not have been exported in full.",
+      "text_reused": false,
+      "notice": "notices/skills-agents-co-skills-and-agents-library-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "skills-agents-co/skills-and-agents-library",
+      "commit": "752fb87f1cbec1afc26940c036f397357afc9af1",
+      "path": "plugins/finance-team/skills/qbo-inventory-reconciliation/references/variance-calculation.md",
+      "licence": "MIT",
+      "contribution": "Deriving a unit cost only from a positive book quantity and never from another item or an average; giving no cost to a negative book quantity; presenting values as average-cost estimates that the books' own cost method may not match; treating a book value with no units behind it as a problem even when the units agree; netting a timed record out of the quantity but valuing it only when the record carries a cost; and a first reading of a shortfall as loss or damage and a surplus as an unentered receipt or an earlier miscount.",
+      "text_reused": false,
+      "notice": "notices/skills-agents-co-skills-and-agents-library-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "skills-agents-co/skills-and-agents-library",
+      "commit": "752fb87f1cbec1afc26940c036f397357afc9af1",
+      "path": "plugins/finance-team/skills/qbo-inventory-reconciliation/references/unmatched-item-rules.md",
+      "licence": "MIT",
+      "contribution": "Handling items found on only one side, and reading an item missing from the sheet as zero under a full count but as not counted under a partial one.",
+      "text_reused": false,
+      "notice": "notices/skills-agents-co-skills-and-agents-library-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "skills-agents-co/skills-and-agents-library",
+      "commit": "752fb87f1cbec1afc26940c036f397357afc9af1",
+      "path": "plugins/finance-team/skills/qbo-inventory-reconciliation/references/output-templates.md",
+      "licence": "MIT",
+      "contribution": "A net total that leaves out items with no cost basis and items found on only one side, and figures shown in the business's own currency.",
+      "text_reused": false,
+      "notice": "notices/skills-agents-co-skills-and-agents-library-LICENSE.txt"
+    }
+  ]
+}

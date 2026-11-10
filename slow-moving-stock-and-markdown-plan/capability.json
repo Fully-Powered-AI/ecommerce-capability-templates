@@ -1,0 +1,67 @@
+{
+  "id": "slow-moving-stock-and-markdown-plan",
+  "name": "Slow-moving stock and markdown plan",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before a seasonal reset, the merchandiser or store owner gets one plan from the sales and stock exports: each item's sell-through and weeks of cover, the cash tied up in dead and slow stock, and a markdown plan in dated steps with the margin each leaves and a date to stop. The owner decides every price.",
+  "directory": "https://fullypowered.ai/capabilities/slow-moving-stock-and-markdown-plan/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/analytics-and-reporting"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "inventory-reorder-plan",
+    "price-change-review",
+    "store-facts-file",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design: sales and stock exports with set column headers that stop on a mismatch; a keep-or-clear mark on every item; default markdown steps of 20, 35 and 50 per cent off the full price; a margin floor stated as a margin on the reduced price; a stop date a set number of days before the reset; a check figure of units sold since the first markdown that decides whether each later step is taken; the margin per unit, in per cent and if every unit sold, at each step; no forecast of extra sales from a lower price; kept lines above a cover limit raised as questions instead of marked down; and an approval line on each item's plan."
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/data-analytics/product-analytics/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Sell-through as units sold over units sold plus units on hand, stock measured in time left at the current pace, no recent sales as the sign of dead stock, a thirty-day grace period for new arrivals, an item with no recent sales labelled as such, with no cover figure worked out from a zero, cash at cost put ahead of unit counts, deeper cuts for stock that is selling less, bundling as an exit, and a review timed before a seasonal reset.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "kishorkukreja/awesome-supply-chain",
+      "commit": "397d95172e374225574f1fb580c1a77376fff836",
+      "path": "skills/markdown-optimization/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Marking down when stock will outlast the time left in the season, a deeper opening step when the expected sell-through is under 40 per cent, reductions that grow in stages and come closer together as the season end nears, a margin limit no price may break and a cap on the deepest cut, and outlets, clearance buyers or donation for what is left.",
+      "text_reused": false,
+      "notice": "notices/kishorkukreja-awesome-supply-chain-LICENSE.txt"
+    }
+  ]
+}
