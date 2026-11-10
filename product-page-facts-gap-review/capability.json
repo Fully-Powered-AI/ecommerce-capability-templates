@@ -1,0 +1,44 @@
+{
+  "id": "product-page-facts-gap-review",
+  "name": "Product-page facts gap review",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Product by product, your merchandiser sees what a shopper's AI assistant needs from each page and does not get: facts the description leaves out, images with no alt text, buyer questions left unanswered. Each gap comes with a sourced draft to fill it, waiting for the owner's approval.",
+  "directory": "https://fullypowered.ai/capabilities/product-page-facts-gap-review/",
+  "primary_function": "functions/marketing-and-content",
+  "functions": [
+    "functions/marketing-and-content"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "competitor-profile-from-public-pages",
+    "customer-reply-drafting",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's product-facts package in its public shopify-skills repository (Fully-Powered-AI/shopify-skills), published under the MIT licence: the store's own list of facts per product line, a source named on every drafted line, open questions in place of guesses, and the approver's mark before anything reaches the store."
+    }
+  ]
+}

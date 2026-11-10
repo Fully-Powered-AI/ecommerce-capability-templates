@@ -1,0 +1,114 @@
+{
+  "id": "ai-visibility-audit-for-an-online-store",
+  "name": "AI visibility audit for an online store",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "A store owner or marketer gets a dated audit of how the store reads to AI assistants and shopping agents, from its own saved public pages: eighteen fixed checks with evidence, a fix list in priority order, and a record of what the assistants actually said. Nothing on the store is changed.",
+  "directory": "https://fullypowered.ai/capabilities/ai-visibility-audit-for-an-online-store/",
+  "primary_function": "functions/marketing-and-content",
+  "functions": [
+    "functions/marketing-and-content",
+    "functions/analytics-and-reporting"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "store-facts-file",
+    "product-page-facts-gap-review",
+    "website-findability-audit"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's AI visibility audit for Shopify stores in its public Shopify repository (MIT): the eighteen checks and what each reads, the priority table and its thresholds, the feed and open-web routes, the answer-check sheet with its connection rule, and the rules that a missing page is never a failure and nothing on the store is changed."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/seo-ai-visibility/reference/ai_visibility.md",
+      "licence": "Apache-2.0",
+      "contribution": "The stance that the work makes a site readable and accurate rather than steering a recommendation; presenting a crawler block as the owner's choice; asking an assistant the customers' own questions and recording exactly what came back, with no score, repeated monthly.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "Orkas-AI/Orkas",
+      "commit": "7b9c8cb98cb5c528f58d1d218329e8cd9dba3a76",
+      "path": "resources/builtin/marketplace/agents/e064dca9e1bd/skills/geo-probe",
+      "licence": "MIT",
+      "contribution": "Counting questions that name the brand apart from those that do not, and counting cited sources apart from mentions, when recording what answer engines say.",
+      "text_reused": false,
+      "notice": "notices/Orkas-AI-Orkas-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "Orkas-AI/Orkas",
+      "commit": "7b9c8cb98cb5c528f58d1d218329e8cd9dba3a76",
+      "path": "resources/builtin/marketplace/agents/e064dca9e1bd/skills/geo-score",
+      "licence": "MIT",
+      "contribution": "Fixed checks over saved page facts so that two runs compare, with image alt coverage and organization profile links among the signals; here each check keeps its own outcome and no combined score is made.",
+      "text_reused": false,
+      "notice": "notices/Orkas-AI-Orkas-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "idan-yaron/Similarweb-MCP-Plugin",
+      "commit": "04f9a0167f6fed7ae43a7cf30b433dffc7ff7e6a",
+      "path": "plugins/similarweb/skills/sw-aeo-audit",
+      "licence": "MIT",
+      "contribution": "Stating in every report what was measured directly and what was only inferred, and never making up a measurement.",
+      "text_reused": false,
+      "notice": "notices/idan-yaron-Similarweb-MCP-Plugin-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ekatasingh1107/b2b-gtm-skills",
+      "commit": "eae8dd0bb98da1c8e84abd297066a87015dd860f",
+      "path": "skills/capabilities/technical-seo-audit",
+      "licence": "MIT",
+      "contribution": "Reading the robots file by user-agent group, checking the sitemap and the structured data, and giving each finding a fix and a priority.",
+      "text_reused": false,
+      "notice": "notices/ekatasingh1107-b2b-gtm-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "coreyhaines31/marketingskills",
+      "commit": "c7d7dfb6b460fc376b4b2204b78a9c9fd5ca6467",
+      "path": "skills/ai-seo/references/agent-readiness.md",
+      "licence": "MIT",
+      "contribution": "Checking the discovery files an assistant reads (robots, sitemap, llms.txt and llms-full.txt) and that the facts are in the HTML the server sends.",
+      "text_reused": false,
+      "notice": "notices/coreyhaines31-marketingskills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "thatrebeccarae/claude-marketing",
+      "commit": "a8a63ec1341f05ec9c1e9cb52b4edeb14e3bdcba",
+      "path": "skills/shopify/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Storefront audit areas, among them structured data and product pages, narrowed here to what an assistant reads: the product and organization structured data and the title, description and heading checks, with no conversion or app-stack advice.",
+      "text_reused": false,
+      "notice": "notices/thatrebeccarae-claude-marketing-LICENSE.txt"
+    }
+  ]
+}

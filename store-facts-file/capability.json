@@ -1,0 +1,65 @@
+{
+  "id": "store-facts-file",
+  "name": "Store facts file",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The person who runs an online store builds the one file every other store capability reads first: what the store sells, the facts each product page should state, the statements it stands behind, buyers' questions, policies, roles and access. Nothing on the store is changed.",
+  "directory": "https://fullypowered.ai/capabilities/store-facts-file/",
+  "primary_function": "functions/marketing-and-content",
+  "functions": [
+    "functions/marketing-and-content",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "customer-reply-drafting",
+    "website-findability-audit",
+    "launch-checklist"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's store-setup package in its public shopify-skills repository (MIT): the store file and its eleven sections, the four source marks, the setup conversation's order and its worked examples, and the rules that the owner clears every statement and that nothing on the store is changed."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/seo-ai-visibility/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Working from the questions customers actually ask, kept in their own phrasing, which became the buyer questions written exactly as given; and the refusal to invent facts about the business, which became the rule that the assistant proposes no product statement of its own.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "thatrebeccarae/claude-marketing",
+      "commit": "a8a63ec1341f05ec9c1e9cb52b4edeb14e3bdcba",
+      "path": "skills/shopify",
+      "licence": "MIT",
+      "contribution": "A store audit that first takes stock of the installed apps, tracking and policy pages, which informed the apps and the pages-and-policies sections that are confirmed rather than asked from scratch.",
+      "text_reused": false,
+      "notice": "notices/thatrebeccarae-claude-marketing-LICENSE.txt"
+    }
+  ]
+}

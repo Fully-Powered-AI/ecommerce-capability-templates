@@ -1,0 +1,31 @@
+{
+  "repository": "Fully-Powered-AI/ecommerce-capability-templates",
+  "title": "E-commerce and Retail",
+  "term": "industries/ecommerce-and-retail",
+  "capabilities": [
+    {
+      "id": "ai-visibility-audit-for-an-online-store",
+      "name": "AI visibility audit for an online store",
+      "version": "0.1.0",
+      "summary": "A store owner or marketer gets a dated audit of how the store reads to AI assistants and shopping agents, from its own saved public pages: eighteen fixed checks with evidence, a fix list in priority order, and a record of what the assistants actually said. Nothing on the store is changed.",
+      "path": "ai-visibility-audit-for-an-online-store/",
+      "directory": "https://fullypowered.ai/capabilities/ai-visibility-audit-for-an-online-store/"
+    },
+    {
+      "id": "product-page-facts-gap-review",
+      "name": "Product-page facts gap review",
+      "version": "0.1.0",
+      "summary": "Product by product, your merchandiser sees what a shopper's AI assistant needs from each page and does not get: facts the description leaves out, images with no alt text, buyer questions left unanswered. Each gap comes with a sourced draft to fill it, waiting for the owner's approval.",
+      "path": "product-page-facts-gap-review/",
+      "directory": "https://fullypowered.ai/capabilities/product-page-facts-gap-review/"
+    },
+    {
+      "id": "store-facts-file",
+      "name": "Store facts file",
+      "version": "0.1.0",
+      "summary": "The person who runs an online store builds the one file every other store capability reads first: what the store sells, the facts each product page should state, the statements it stands behind, buyers' questions, policies, roles and access. Nothing on the store is changed.",
+      "path": "store-facts-file/",
+      "directory": "https://fullypowered.ai/capabilities/store-facts-file/"
+    }
+  ]
+}
