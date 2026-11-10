@@ -1,0 +1,65 @@
+{
+  "id": "chargeback-response-pack",
+  "name": "Chargeback response pack",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a card dispute lands, the store owner or finance lead gets one pack: the dispute matched to its order, the evidence its reason calls for marked found or missing, a response drafted well inside the deadline, and the store's dispute ratio for the month. A person decides whether to contest and submits it.",
+  "directory": "https://fullypowered.ai/capabilities/chargeback-response-pack/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/customer-support-and-service"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "complaint-and-refund-request-handling",
+    "store-facts-file",
+    "bank-reconciliation-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work: the store's own records as the only source, every gap named with where to get it, nothing stated that an input does not show, and a person who decides, approves and submits."
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/payments-checkout/chargeback-management-prevention/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Answering each dispute before its deadline with evidence that suits its reason, delivery records and customer messages as core evidence, earlier undisputed orders for a fraud claim, the point that a dispute can begin as an inquiry before it becomes a chargeback, counting a month's disputes against the same month's payments, and the 0.65% early-warning and 1.00% monitoring levels used as the invented example's settings.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/payments-checkout/chargeback-management-prevention/evals/ratio-monitoring-alerting-and-prevention/criteria.json",
+      "licence": "MIT",
+      "contribution": "Checking whether the disputing customer has earlier disputes within a set look-back period, and the point that later stages of a dispute carry their own fees.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    }
+  ]
+}

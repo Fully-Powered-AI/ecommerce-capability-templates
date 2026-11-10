@@ -12,6 +12,22 @@
       "directory": "https://fullypowered.ai/capabilities/ai-visibility-audit-for-an-online-store/"
     },
     {
+      "id": "chargeback-response-pack",
+      "name": "Chargeback response pack",
+      "version": "0.1.0",
+      "summary": "When a card dispute lands, the store owner or finance lead gets one pack: the dispute matched to its order, the evidence its reason calls for marked found or missing, a response drafted well inside the deadline, and the store's dispute ratio for the month. A person decides whether to contest and submits it.",
+      "path": "chargeback-response-pack/",
+      "directory": "https://fullypowered.ai/capabilities/chargeback-response-pack/"
+    },
+    {
+      "id": "inventory-reorder-plan",
+      "name": "Inventory reorder plan",
+      "version": "0.1.0",
+      "summary": "The store owner or buyer gets one plan from the latest sales and stock exports: each item's sales rate, the day it could run out, its reorder point and safety stock, what to order, what is not moving, and a draft purchase order per supplier. Nothing is ordered until a person approves.",
+      "path": "inventory-reorder-plan/",
+      "directory": "https://fullypowered.ai/capabilities/inventory-reorder-plan/"
+    },
+    {
       "id": "product-page-facts-gap-review",
       "name": "Product-page facts gap review",
       "version": "0.1.0",

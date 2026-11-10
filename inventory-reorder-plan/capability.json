@@ -1,0 +1,116 @@
+{
+  "id": "inventory-reorder-plan",
+  "name": "Inventory reorder plan",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The store owner or buyer gets one plan from the latest sales and stock exports: each item's sales rate, the day it could run out, its reorder point and safety stock, what to order, what is not moving, and a draft purchase order per supplier. Nothing is ordered until a person approves.",
+  "directory": "https://fullypowered.ai/capabilities/inventory-reorder-plan/",
+  "primary_function": "functions/supply-chain-and-inventory",
+  "functions": [
+    "functions/supply-chain-and-inventory",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "store-facts-file",
+    "vendor-quote-comparison",
+    "supplier-bill-review-and-payment-run-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own design: weekly sales and stock exports with set column headers that stop on a mismatch; safety stock in two parts, one for sales running at the recent pace during the wait for delivery and one for a late delivery; an order-up-to target of the reorder point plus a set number of days of cover; the review-period reorder point used as the line that puts an item in the next-review group; a default overstock limit of 180 days of cover; the smallest pack additions to reach a supplier's minimum shown for that supplier's items not on the order as well as those on it; stock on order counted toward the stock-out date only when it arrives first; and the draft purchase order with a blank approval line."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/inventory-planner/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Reading a recent week's sales beside four weeks', dating the stock-out on the faster rate while sizing the order on the four-week rate, leaving one-off bulk orders out of the rate, marking items that will run out before an order can arrive, a not-enough-history group for items without four weeks of sales, an order-soon group for the next cycle, keeping items with no sales off every order and showing the cash in them, an overstock limit reported as the excess units and their cost, refusing to estimate a season the history cannot show, leading the summary with the total to order and the count of items about to run out, and holding each purchase order for the owner's approval.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/inventory-planner/reference/velocity_and_reorder.md",
+      "licence": "Apache-2.0",
+      "contribution": "Dividing sales by the days an item was actually in stock, looking into the cause when the two rates differ by more than half, a default buffer of seven days, no rate for a new item under 28 days, counting stock already on order before sizing a reorder, rounding up to the supplier's pack, and showing a supplier's minimum order as a choice for the owner, with the extra pack's units, cost and extra days of stock at the four-week rate, rather than padding the order to reach it.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/inventory-planner/reference/data_sources.md",
+      "licence": "Apache-2.0",
+      "contribution": "Asking for the date of the stock count, and checking the data before any arithmetic for negative stock, items with sales but no stock record or stock but no sales, and duplicate item codes.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/inventory-planner/reference/po_drafting.md",
+      "licence": "Apache-2.0",
+      "contribution": "One purchase order per supplier, approved supplier by supplier, with a requested delivery date worked out from the lead time, numbered in the store's own series rather than a new one, priced at the last known cost with its date for the supplier to confirm, and a missing price left blank rather than guessed.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/inventory-planner/reference/seasonality.md",
+      "licence": "Apache-2.0",
+      "contribution": "Asking the owner for any seasonal or one-time change instead of computing one from short history, showing the order both at the unadjusted rate and at the owner's figure, and labelling the figure as the owner's.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/inventory-planner/reference/gotchas.md",
+      "licence": "Apache-2.0",
+      "contribution": "Treating an old stock count as a source of wrong stock-out dates and asking for a fresh count, and never treating sold-out days as days of no demand.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "kishorkukreja/awesome-supply-chain",
+      "commit": "397d95172e374225574f1fb580c1a77376fff836",
+      "path": "skills/inventory-optimization/SKILL.md",
+      "licence": "MIT",
+      "contribution": "The reorder point as expected demand over the lead time plus safety stock, a reorder point raised to cover the review period as well as the lead time, the stock position as stock on hand plus stock on order, and ordering up to a target when a regular review finds the position at or below the reorder point.",
+      "text_reused": false,
+      "notice": "notices/kishorkukreja-awesome-supply-chain-LICENSE.txt"
+    }
+  ]
+}
