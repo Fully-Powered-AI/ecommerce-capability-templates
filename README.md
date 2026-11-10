@@ -2,13 +2,14 @@
 
 A store that every shopper, and every shopper's AI assistant, can understand. These capability templates are written for the people who run an online store. They prepare the facts, the product-page reviews and the visibility checks, and the store's people decide what changes.
 
-This repository holds 3 capability templates for the people who run an online store. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+This repository holds 4 capability templates for the people who run an online store. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The capabilities
 
 - **[AI visibility audit for an online store](ai-visibility-audit-for-an-online-store/)**: A store owner or marketer gets a dated audit of how the store reads to AI assistants and shopping agents, from its own saved public pages: eighteen fixed checks with evidence, a fix list in priority order, and a record of what the assistants actually said. Nothing on the store is changed.
 - **[Product-page facts gap review](product-page-facts-gap-review/)**: Product by product, your merchandiser sees what a shopper's AI assistant needs from each page and does not get: facts the description leaves out, images with no alt text, buyer questions left unanswered. Each gap comes with a sourced draft to fill it, waiting for the owner's approval.
 - **[Store facts file](store-facts-file/)**: The person who runs an online store builds the one file every other store capability reads first: what the store sells, the facts each product page should state, the statements it stands behind, buyers' questions, policies, roles and access. Nothing on the store is changed.
+- **[Store guide for AI shopping assistants](store-guide-for-ai-shopping-assistants/)**: The person who runs an online store gets the plain-language guide a shopper's AI assistant reads about the store: what it sells, for whom, which product line suits which need, and where the policies are. Every line traces to the approved store facts file, and a person places it.
 
 ## How to use one
 

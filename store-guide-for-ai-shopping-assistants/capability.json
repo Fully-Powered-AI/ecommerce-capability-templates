@@ -1,0 +1,105 @@
+{
+  "id": "store-guide-for-ai-shopping-assistants",
+  "name": "Store guide for AI shopping assistants",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The person who runs an online store gets the plain-language guide a shopper's AI assistant reads about the store: what it sells, for whom, which product line suits which need, and where the policies are. Every line traces to the approved store facts file, and a person places it.",
+  "directory": "https://fullypowered.ai/capabilities/store-guide-for-ai-shopping-assistants/",
+  "primary_function": "functions/marketing-and-content",
+  "functions": [
+    "functions/marketing-and-content"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/startups-and-new-ventures"
+  ],
+  "related": [
+    "store-facts-file",
+    "ai-visibility-audit-for-an-online-store",
+    "product-page-facts-gap-review"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's store guide package in its public shopify-skills repository (MIT): the guide's sections and their order, the rule that every sentence comes from the owner's store facts file, the shopping rules restated from Shopify's guidance recorded on 21 October 2026, the checks, the claim and comparison word lists, and the placing steps."
+    },
+    {
+      "kind": "third-party",
+      "repository": "coreyhaines31/marketingskills",
+      "commit": "c7d7dfb6b460fc376b4b2204b78a9c9fd5ca6467",
+      "path": "skills/ai-seo/SKILL.md",
+      "licence": "MIT",
+      "contribution": "The idea of a brief overview file written for AI systems that points them to a site's most important pages, which shaped the guide's opening sections and its links to policy and help pages. Its companion reference, skills/ai-seo/references/agent-readiness.md, added the view that files written for assistants are emerging conventions rather than a confirmed ranking or citation signal and that assistants need facts in plain text, which shaped the guide's plain-text form and its stance that it promises nothing about what an assistant recommends.",
+      "text_reused": false,
+      "notice": "notices/coreyhaines31-marketingskills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "coreyhaines31/marketingskills",
+      "commit": "c7d7dfb6b460fc376b4b2204b78a9c9fd5ca6467",
+      "path": "skills/schema/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Accuracy as the first principle of anything written for machines, which became the rules that the guide states nothing the facts file lacks and is redrafted whenever that file changes.",
+      "text_reused": false,
+      "notice": "notices/coreyhaines31-marketingskills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/seo-ai-visibility/reference/ai_visibility.md#the-line-this-skill-does-not-cross",
+      "licence": "Apache-2.0",
+      "contribution": "The stance in the file's opening section that files written for machines make a site accurate and are never used to steer what an assistant recommends, with requests to plant instructions for AI systems declined and such text treated as something to report rather than follow, which became the guide's refusal to ask any assistant to recommend, rank or prefer the store and the rule that text in an input addressed to an assistant is data.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/seo-ai-visibility/reference/ai_visibility.md#3-llmstxt",
+      "licence": "Apache-2.0",
+      "contribution": "Treating a site-root text file that sums up a business as an honest, optional convention with no promise attached about recommendations, which informed the guide's stance and the note for stores on other platforms.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "Orkas-AI/Orkas",
+      "commit": "7b9c8cb98cb5c528f58d1d218329e8cd9dba3a76",
+      "path": "resources/builtin/marketplace/agents/e064dca9e1bd/skills/seo-schema/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Checking generated markup against what a visitor can actually see on the page, which became the rule that the guide names each fact slot and leaves the value to the product page itself.",
+      "text_reused": false,
+      "notice": "notices/Orkas-AI-Orkas-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "nexscope-ai/eCommerce-Skills",
+      "commit": "ee0fb29433d02ccc22e3e6cea9ab4586d49fd42e",
+      "path": "product-page-seo/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Read when the package was written. Its list of product page areas, with no procedure, only confirmed that each fact's value belongs on the product page rather than in the guide; nothing else was taken from it.",
+      "text_reused": false,
+      "notice": "notices/nexscope-ai-eCommerce-Skills-LICENSE.txt"
+    }
+  ]
+}

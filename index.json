@@ -26,6 +26,14 @@
       "summary": "The person who runs an online store builds the one file every other store capability reads first: what the store sells, the facts each product page should state, the statements it stands behind, buyers' questions, policies, roles and access. Nothing on the store is changed.",
       "path": "store-facts-file/",
       "directory": "https://fullypowered.ai/capabilities/store-facts-file/"
+    },
+    {
+      "id": "store-guide-for-ai-shopping-assistants",
+      "name": "Store guide for AI shopping assistants",
+      "version": "0.1.0",
+      "summary": "The person who runs an online store gets the plain-language guide a shopper's AI assistant reads about the store: what it sells, for whom, which product line suits which need, and where the policies are. Every line traces to the approved store facts file, and a person places it.",
+      "path": "store-guide-for-ai-shopping-assistants/",
+      "directory": "https://fullypowered.ai/capabilities/store-guide-for-ai-shopping-assistants/"
     }
   ]
 }
