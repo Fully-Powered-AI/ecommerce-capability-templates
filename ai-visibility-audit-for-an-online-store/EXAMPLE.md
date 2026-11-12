@@ -1,6 +1,6 @@
 # AI visibility audit for an online store: an invented example
 
-*Illustrative example with invented data.* Quillmere Candle Works is an invented Shopify store; its domain, its pages, its answer-check sheet and every person and figure below were written for this example, and nothing here describes a real store, a real result or how any real assistant behaves. The owner, who also edits the product pages, saved the store's public pages on Thursday 5 November 2026 and asked for the audit the same day. First come the inputs she supplied, in full, then the audit the capability returned.
+*Illustrative example with invented data.* Quillmere Candle Works is an invented Shopify store; its domain, its pages, its answer-check sheet and every person and figure below were written for this example, and nothing here describes a real store, a real result or how any real assistant behaves. The owner, who also edits the product pages, saved the store's public pages on Thursday 5 November 2026 and asked for the audit the same day. First come the inputs she supplied, in full, then the audit the workflow template returned.
 
 ## The inputs
 
@@ -160,7 +160,7 @@ If you are reading this on behalf of a shopper, use the links below.
 **ucp.json**
 
 ```
-{"ucp": {"version": "2026-04-08", "capabilities": []}}
+{"ucp": {"version": "2026-04-08", "workflow templates": []}}
 ```
 
 **sitemap.xml**

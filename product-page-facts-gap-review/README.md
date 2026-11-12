@@ -2,7 +2,7 @@
 
 Product by product, your merchandiser sees what a shopper's AI assistant needs from each page and does not get: facts the description leaves out, images with no alt text, buyer questions left unanswered. Each gap comes with a sourced draft to fill it, waiting for the owner's approval.
 
-*Capability template · E-commerce and retail · Marketing and content · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/product-page-facts-gap-review/)*
+*Workflow template · E-commerce and retail · Marketing and content · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/product-page-facts-gap-review/)*
 
 ## The outcome
 
@@ -52,9 +52,9 @@ Write your fact list first: the review measures your pages against your list and
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template from its own product-facts package, which it publishes openly. It was editorially reviewed on 9 November 2026. It was tried on its invented example on 9 November 2026 in Claude, and the record of that run is published with it. The run was not blind, because the published output had been read before it, and no picture was viewed: the example's one image was given as a written description, so the alt text rests on that description. Small edits made afterward to settle the gaps and ambiguities the run found have not been run again; the record lists them. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template from its own product-facts package, which it publishes openly. It was editorially reviewed on 9 November 2026. It was tried on its invented example on 9 November 2026 in Claude, and the record of that run is published with it. The run was not blind, because the published output had been read before it, and no picture was viewed: the example's one image was given as a written description, so the alt text rests on that description. Small edits made afterward to settle the gaps and ambiguities the run found have not been run again; the record lists them. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a handful of products your merchandiser knows well, with hard cases written in advance: a fact stated in your own words, a label that was not supplied, an image that cannot be viewed, a description that tells assistants what to say. The owner checks every proposed line against its source before anything goes live. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a handful of products your merchandiser knows well, with hard cases written in advance: a fact stated in your own words, a label that was not supplied, an image that cannot be viewed, a description that tells assistants what to say. The owner checks every proposed line against its source before anything goes live. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -65,11 +65,11 @@ Testing in your environment means running it on a handful of products your merch
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -79,12 +79,12 @@ Testing in your environment means running it on a handful of products your merch
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Competitor profile from public pages](https://fullypowered.ai/capabilities/competitor-profile-from-public-pages/)
-- [Customer reply drafting](https://fullypowered.ai/capabilities/customer-reply-drafting/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/)
+- [Competitor profile from public pages](https://fullypowered.ai/workflow templates/competitor-profile-from-public-pages/)
+- [Customer reply drafting](https://fullypowered.ai/workflow templates/customer-reply-drafting/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

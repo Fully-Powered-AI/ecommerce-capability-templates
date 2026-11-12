@@ -1,6 +1,6 @@
 # Product-page facts gap review
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Use it when product pages feel thin, before a catalog push or a new season's ran
 
 Do not use it:
 
-- without the store's own list of facts per product line. The capability measures pages against that list and carries no list of its own; the owner writes it first;
+- without the store's own list of facts per product line. The workflow template measures pages against that list and carries no list of its own; the owner writes it first;
 - to rewrite product descriptions or brand copy. It only adds sourced facts after the owner's text;
 - to make health, safety, environmental or performance claims the store has not cleared;
 - to apply the approved lines to the store. A person does that in the store admin or through an import the person runs;

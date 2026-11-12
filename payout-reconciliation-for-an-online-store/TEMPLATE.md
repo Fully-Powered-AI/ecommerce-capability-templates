@@ -1,6 +1,6 @@
 # Payout reconciliation for an online store
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Use it after each month ends, once the payout reports and the bank statement for
 
 Do not use it:
 
-- to reconcile one bank account against the books line by line. That is a bank reconciliation, run on the bank statement and the ledger; this capability passes the deposits it cannot place to that work;
+- to reconcile one bank account against the books line by line. That is a bank reconciliation, run on the bank statement and the ledger; this workflow template passes the deposits it cannot place to that work;
 - to answer a card dispute. That is a chargeback response, prepared with its own evidence before the processor's deadline;
 - to decide how the entries are coded, which accounts they go to, or how an item is treated in the accounts. The bookkeeper decides that;
 - to judge what a channel's terms mean or whether a charge is permitted under them. That is for the store's adviser;

@@ -205,6 +205,6 @@ The template was edited after this run in answer to the ambiguities above. These
 - **The date.** The report heading carries the date of the run.
 - **Ready with open items elsewhere.** An open item in a field the guide does not read, such as the feed and channel lines of section 10, does not prevent Ready, as this run decided.
 - **The current-guide line** in the output format now opens with a capital letter ("Not supplied; ..."), as both this run and the example wrote it.
-- **The longer companion file.** The template now says that a product-index companion file is not part of this capability.
+- **The longer companion file.** The template now says that a product-index companion file is not part of it.
 
 The example's inputs and output were not changed.

@@ -1,6 +1,6 @@
 # Product-page facts gap review: an invented example
 
-*Illustrative example with invented data.* Saltmarrow Candle Co., its products, its people, its files and every figure below are invented. It is an online candle shop run by three people: the owner, a merchandiser and an operations lead. First come the inputs the merchandiser supplied, in full, then the review the capability returned. The merchandiser ran it on 3 November 2026, the day of the export.
+*Illustrative example with invented data.* Saltmarrow Candle Co., its products, its people, its files and every figure below are invented. It is an online candle shop run by three people: the owner, a merchandiser and an operations lead. First come the inputs the merchandiser supplied, in full, then the review the workflow template returned. The merchandiser ran it on 3 November 2026, the day of the export.
 
 ## The inputs
 

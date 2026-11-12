@@ -1,6 +1,6 @@
 # Store guide for AI shopping assistants
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -18,12 +18,12 @@ Use it:
 
 Do not use it:
 
-- before there is a store facts file. Build that first with the store facts file capability: the guide may say only what the file carries;
+- before there is a store facts file. Build that first with the store facts file workflow template: the guide may say only what the file carries;
 - to audit how the store reads to AI assistants. That is the AI visibility audit, which also confirms the live guide after it is placed;
 - to fill gaps on product pages, alt text or structured data. That is the product-page facts gap review. The guide sends assistants to each product page for the values, so the pages have to carry them;
 - to list every product with its price. Prices go stale in a fixed file; assistants read them from the store's shopping tools and pages;
 - to steer what an assistant recommends. The guide describes the store accurately and asks no assistant to rank, prefer or recommend it;
-- to draft a longer companion file that lists every product (on Shopify, an `llms-full.txt.liquid` file with a product index). That optional file is not part of this capability. Without it, Shopify serves this guide at `/llms-full.txt` as well.
+- to draft a longer companion file that lists every product (on Shopify, an `llms-full.txt.liquid` file with a product index). That optional file is not part of this workflow template. Without it, Shopify serves this guide at `/llms-full.txt` as well.
 
 ## Roles
 
@@ -88,7 +88,7 @@ The assistant works only from what is supplied. It needs no connection to the st
 
 ## Exceptions and stop conditions
 
-- **No store facts file:** stop. Say the guide may say only what the facts file carries, and that the store facts file capability builds it with the owner.
+- **No store facts file:** stop. Say the guide may say only what the facts file carries, and that the store facts file workflow template builds it with the owner.
 - **Store name or web address blank or [open], or no product line:** stop and name the field.
 - **Asked to add an adjective, a benefit, a comparison or any fact the facts file lacks:** decline. A new statement is cleared by the owner and added to the facts file first; then run this again.
 - **Asked to add an email address, a phone number or a price:** decline. Point to the contact page; prices come from the store's shopping tools and pages.
@@ -381,4 +381,4 @@ sent. The owner decides when the guide goes live."
 
 ## Version notes
 
-- 0.1.0, 9 November 2026. Written by Fully Powered AI from its own store guide package in its public shopify-skills repository. Editorially reviewed. The platform list reflects Shopify's guidance as recorded on 21 October 2026. Tried once on its invented example in Claude on 9 November 2026; the record is published with it. That one run covered only the complete-inputs case. After it, clarifications were added: policy labels take a capital first letter; the choosing sentence pairs each line with the need or buyer its bullet names; which links count as store links and which are standard; how runs of bullets and the contact page are traced; that `{handle}` is not a placeholder; the heading's date; that open items in fields the guide does not read leave Ready possible; a capital letter at the start of the current-guide line; and that the longer product-index companion file is not part of this capability. These edits have not been run again; the trial record lists them. Not yet tested in a client environment, and not yet tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+- 0.1.0, 9 November 2026. Written by Fully Powered AI from its own store guide package in its public shopify-skills repository. Editorially reviewed. The platform list reflects Shopify's guidance as recorded on 21 October 2026. Tried once on its invented example in Claude on 9 November 2026; the record is published with it. That one run covered only the complete-inputs case. After it, clarifications were added: policy labels take a capital first letter; the choosing sentence pairs each line with the need or buyer its bullet names; which links count as store links and which are standard; how runs of bullets and the contact page are traced; that `{handle}` is not a placeholder; the heading's date; that open items in fields the guide does not read leave Ready possible; a capital letter at the start of the current-guide line; and that the longer product-index companion file is not part of this workflow template. These edits have not been run again; the trial record lists them. Not yet tested in a client environment, and not yet tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.

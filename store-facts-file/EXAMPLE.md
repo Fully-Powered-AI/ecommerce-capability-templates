@@ -1,6 +1,6 @@
 # Store facts file: an invented example
 
-*Illustrative example with invented data.* The store, its products, its web address, its apps and its people below are all invented. Larkfield Loose Leaf is an invented small online tea shop: an owner who blends and packs the tea and also runs the store day to day, a part-time helper who answers email, and a bookkeeper. First come the inputs, in full, then the file and the report the capability returned.
+*Illustrative example with invented data.* The store, its products, its web address, its apps and its people below are all invented. Larkfield Loose Leaf is an invented small online tea shop: an owner who blends and packs the tea and also runs the store day to day, a part-time helper who answers email, and a bookkeeper. First come the inputs, in full, then the file and the report the workflow template returned.
 
 ## The inputs
 
@@ -134,7 +134,7 @@ AI shopping channels
 ```
 STORE FACTS FILE: Larkfield Loose Leaf
 
-Last changed 9 November 2026. Every store capability reads this file first.
+Last changed 9 November 2026. Every store workflow template reads this file first.
 Marks: [owner] the person said it; [read] read from a supplied file and confirmed;
 [default] a default the person accepted; [open] decide later, listed in the report.
 A blank value means not yet asked. Headings and field wording never change.
@@ -231,7 +231,7 @@ Roles, never names.
 - Who publishes files onto the site [default operator]: operator; the owner also acts as operator [owner]
 
 ## 8. Access
-- How later capabilities reach the store's data (connection, exports, public): exports, public [owner]
+- How later workflow templates reach the store's data (connection, exports, public): exports, public [owner]
 - Connection access level approved, and the staff role it acts through: none, no connection [owner]
 - Exports the person can produce, and how often: products and orders, monthly [owner]
 
@@ -257,14 +257,14 @@ Dated lines, newest last: date, role, what was decided, section.
 
 SETUP REPORT: Larkfield Loose Leaf, 9 November 2026
 
-Ready for the store's other capabilities. Open items: 6 (sections 2, 5 and 10).
+Ready for the store's other workflow templates. Open items: 6 (sections 2, 5 and 10).
 
 Decisions made today:
 - Section 2: two product lines, Tea and Teaware; seven fact slots; four search words.
 - Section 3: sleep and health benefits are never claimed; "best ever" and "detox" are avoided; competitor comparisons stay off; the owner clears new statements.
 - Section 6: the store publishes no terms page, recorded as none.
 - Section 7: the owner approves product data changes and also acts as operator.
-- Section 8: later capabilities use exports and the public pages; there is no connection.
+- Section 8: later workflow templates use exports and the public pages; there is no connection.
 - Section 9: low-stock units per variant set to 10; every other default accepted.
 
 Open items:
@@ -288,7 +288,7 @@ Check:
 
 Coverage: used store basics from the admin (2 November 2026), the product list export (2 November 2026; 6 rows, 5 active, 1 draft left out), text from 3 product pages (2 November 2026), storefront footer links (2 November 2026) and the owner's answers for sections 1 to 11 (9 November 2026); missing the admin checks for section 10, the reviews app check and the Teaware category; not judged whether any cleared statement is true or allowed, and anything only the admin shows.
 
-Next: settle each open item before the capability that needs it; the section 10 lines before any review of how AI assistants see the store.
+Next: settle each open item before the workflow template that needs it; the section 10 lines before any review of how AI assistants see the store.
 
 Nothing on the store has been changed, published or sent. The owner approves this file.
 ```

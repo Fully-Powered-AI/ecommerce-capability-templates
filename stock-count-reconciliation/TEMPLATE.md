@@ -1,6 +1,6 @@
 # Stock count reconciliation
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -13,7 +13,7 @@ Use it after a full or partial physical count: at month end, quarter end or year
 Do not use it:
 
 - to decide what to reorder or how much. That is the inventory reorder plan, which starts from sales and stock exports;
-- to plan or track the month-end close as a whole. That is the month-end close checklist; where a stock count is one of the close tasks, this capability compares its result with the books;
+- to plan or track the month-end close as a whole. That is the month-end close checklist; where a stock count is one of the close tasks, this workflow template compares its result with the books;
 - to count stock from photos, or to guess a count nobody has made. The count must already be written down;
 - to set a cost method, value stock for tax, or decide how a loss is treated in the accounts. Those are the bookkeeper's or the accountant's calls;
 - to judge whether a person took stock. It lists unexplained differences; it never names or suspects anyone.

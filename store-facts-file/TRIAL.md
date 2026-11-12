@@ -15,7 +15,7 @@ The full file and report, as produced:
 ```
 STORE FACTS FILE: Larkfield Loose Leaf
 
-Last changed 2026-11-09. Every store capability reads this file first.
+Last changed 2026-11-09. Every store workflow template reads this file first.
 Marks: [owner] the person said it; [read] read from a supplied file and confirmed;
 [default] a default the person accepted; [open] decide later, with the check and role.
 A blank value means not yet asked. Headings and field wording never change.
@@ -113,7 +113,7 @@ Roles, never names.
 - Who publishes files onto the site [default operator]: operator; the owner also acts as operator [default]
 
 ## 8. Access
-- How later capabilities reach the store's data (connection, exports, public): exports, public [owner]
+- How later workflow templates reach the store's data (connection, exports, public): exports, public [owner]
 - Connection access level approved, and the staff role it acts through: none, no connection [owner]
 - Exports the person can produce, and how often: products and orders, monthly [owner]
 
@@ -140,7 +140,7 @@ Dated lines, newest last: date, role, what was decided, section.
 
 SETUP REPORT: Larkfield Loose Leaf, 2026-11-09
 
-Ready for the store's other capabilities. Open items: 6 (sections 2, 5, 10).
+Ready for the store's other workflow templates. Open items: 6 (sections 2, 5, 10).
 
 Decisions made today:
 - Section 2: two product lines kept, Tea and Teaware; Teaware's category left open.
@@ -168,7 +168,7 @@ Check:
 
 Coverage: used store basics (2 November 2026), product list export (2 November 2026; 6 rows, 1 draft row left out), text from three product pages (2 November 2026), storefront footer links (2 November 2026), the conversation (9 November 2026); missing: no existing store facts file, no FAQ page, no terms page, admin checks for section 10 and the reviews app's settings not done; not judged: whether any cleared statement is true or allowed; anything only the admin shows.
 
-Next: settle each open item before the capability that needs it
+Next: settle each open item before the workflow template that needs it
 
 Nothing on the store has been changed, published or sent. The owner approves this file.
 ```

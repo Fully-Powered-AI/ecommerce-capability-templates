@@ -1,6 +1,6 @@
 # Store guide for AI shopping assistants: an invented example
 
-*Illustrative example with invented data.* The store, its web address, its products, its pages and its roles below are all invented. Tarnmoor Wool Co. is an invented online store on Shopify selling wool socks and blankets in the United States, run by an owner and an operator. First come the inputs the operator supplied, in full, then the report the capability returned on 5 November 2026.
+*Illustrative example with invented data.* The store, its web address, its products, its pages and its roles below are all invented. Tarnmoor Wool Co. is an invented online store on Shopify selling wool socks and blankets in the United States, run by an owner and an operator. First come the inputs the operator supplied, in full, then the report the workflow template returned on 5 November 2026.
 
 ## The inputs
 
@@ -17,7 +17,7 @@ Shopify's default. The address list is attached.
 ```
 STORE FACTS FILE: Tarnmoor Wool Co.
 
-Last changed 2026-11-03. Every store capability reads this file first.
+Last changed 2026-11-03. Every store workflow template reads this file first.
 Marks: [owner] the person said it; [read] read from a supplied file and confirmed;
 [default] a default the person accepted; [open] decide later, listed in the report.
 A blank value means not yet asked. Headings and field wording never change.
@@ -100,7 +100,7 @@ Roles, never names.
 - Who publishes files onto the site [default operator]: operator [default]
 
 ## 8. Access
-- How later capabilities reach the store's data (connection, exports, public): exports, public [owner]
+- How later workflow templates reach the store's data (connection, exports, public): exports, public [owner]
 - Connection access level approved, and the staff role it acts through: none, no connection [owner]
 - Exports the person can produce, and how often: products, monthly [owner]
 
@@ -144,7 +144,7 @@ https://www.tarnmoor-wool.example/policies/terms-of-service
 
 No current guide text and no earlier draft were supplied.
 
-## The report the capability returned
+## The report the workflow template returned
 
 ```
 STORE GUIDE FOR AI SHOPPING ASSISTANTS: Tarnmoor Wool Co., 2026-11-05

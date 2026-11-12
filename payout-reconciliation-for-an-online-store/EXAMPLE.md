@@ -1,6 +1,6 @@
 # Payout reconciliation for an online store: an invented example
 
-*Illustrative example with invented data.* The store (called Store K here), its card payment processor (Processor P), the marketplace it also sells on (Marketplace M), its bank (Bank B), its supplier (Supplier A), the rates, the order and payout numbers and every figure below are invented. Store K is a small online candle shop run by an owner with a part-time bookkeeper. It takes card payments on its own site through Processor P and also sells through Marketplace M. First come the inputs the bookkeeper supplied, in full, then the pack the capability returned.
+*Illustrative example with invented data.* The store (called Store K here), its card payment processor (Processor P), the marketplace it also sells on (Marketplace M), its bank (Bank B), its supplier (Supplier A), the rates, the order and payout numbers and every figure below are invented. Store K is a small online candle shop run by an owner with a part-time bookkeeper. It takes card payments on its own site through Processor P and also sells through Marketplace M. First come the inputs the bookkeeper supplied, in full, then the pack the workflow template returned.
 
 ## The inputs
 

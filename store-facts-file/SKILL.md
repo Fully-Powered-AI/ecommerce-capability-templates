@@ -1,21 +1,21 @@
 ---
 name: "store-facts-file"
-description: "Build, with the person who runs an online store, the one file of store facts that every other store capability reads before it starts: what the store sells and the facts each product page should state, the statements the store stands behind and the words it avoids, the questions buyers ask, the apps, pages and policies, the roles, how later work reaches the store's data, and the numbers later work uses. Every line carries a mark that says whose word it is. The assistant proposes from the files the person supplies; the person decides each line. The assistant changes nothing on the store, lets into the file only the product statements the owner clears, and never records its own wording as the person's."
+description: "Build, with the person who runs an online store, the one file of store facts that every other store workflow template reads before it starts: what the store sells and the facts each product page should state, the statements the store stands behind and the words it avoids, the questions buyers ask, the apps, pages and policies, the roles, how later work reaches the store's data, and the numbers later work uses. Every line carries a mark that says whose word it is. The assistant proposes from the files the person supplies; the person decides each line. The assistant changes nothing on the store, lets into the file only the product statements the owner clears, and never records its own wording as the person's."
 license: "MIT"
 metadata:
   version: "0.1.0"
   publisher: "Fully Powered AI"
-  capability: "Store facts file"
+  template: "Store facts file"
 ---
 
 # Store facts file
 
-This is the technical file for a Fully Powered capability template. It carries the instructions an AI product follows. The complete template, with roles, inputs, exceptions, the reviewer checklist, acceptance tests and what to customize, is in [TEMPLATE.md](TEMPLATE.md). A worked example with invented data is in [EXAMPLE.md](EXAMPLE.md).
+This is the technical file for a Fully Powered workflow template. It carries the instructions an AI product follows. The complete template, with roles, inputs, exceptions, the reviewer checklist, acceptance tests and what to customize, is in [TEMPLATE.md](TEMPLATE.md). A worked example with invented data is in [EXAMPLE.md](EXAMPLE.md).
 
 ## Instructions
 
 You build a store facts file with the person who runs an online store:
-the one file every other store capability reads first. You propose from
+the one file every other store workflow template reads first. You propose from
 the files supplied; the person decides every line. You never change
 anything on the store, never publish, send, post or pay, never switch a
 channel on or off, and never contact anyone. A person approves the file
@@ -124,7 +124,7 @@ on the store has been changed, published or sent.
 ```
 STORE FACTS FILE: [store name]
 
-Last changed [date]. Every store capability reads this file first.
+Last changed [date]. Every store workflow template reads this file first.
 Marks: [owner] the person said it; [read] read from a supplied file and confirmed;
 [default] a default the person accepted; [open] decide later, listed in the report.
 A blank value means not yet asked. Headings and field wording never change.
@@ -194,7 +194,7 @@ Roles, never names.
 - Who publishes files onto the site [default operator]: [role] [mark]
 
 ## 8. Access
-- How later capabilities reach the store's data (connection, exports, public): [value] [mark]
+- How later workflow templates reach the store's data (connection, exports, public): [value] [mark]
 - Connection access level approved, and the staff role it acts through: [value / none, no connection] [mark]
 - Exports the person can produce, and how often: [value] [mark]
 
@@ -219,7 +219,7 @@ Dated lines, newest last: date, role, what was decided, section.
 
 SETUP REPORT: [store name], [date]
 
-[Ready for the store's other capabilities. Open items: [n] (sections [list]) / none.]
+[Ready for the store's other workflow templates. Open items: [n] (sections [list]) / none.]
 [or: Partial: [n] of 10 required items not settled (sections [list]). Open items: [n].]
 
 Decisions made today:
@@ -243,7 +243,7 @@ Check:
 
 Coverage: used [each input, with its date]; missing [inputs not supplied, admin checks not done]; not judged [whether any cleared statement is true or allowed; anything only the admin shows].
 
-Next: [settle each open item before the capability that needs it / ready for the next store capability]
+Next: [settle each open item before the template that needs it / ready for the next store workflow template]
 
 Nothing on the store has been changed, published or sent. The owner approves this file.
 ```

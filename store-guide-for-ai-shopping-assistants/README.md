@@ -2,11 +2,11 @@
 
 The person who runs an online store gets the plain-language guide a shopper's AI assistant reads about the store: what it sells, for whom, which product line suits which need, and where the policies are. Every line traces to the approved store facts file, and a person places it.
 
-*Capability template · E-commerce and retail · Marketing and content · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/store-guide-for-ai-shopping-assistants/)*
+*Workflow template · E-commerce and retail · Marketing and content · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/store-guide-for-ai-shopping-assistants/)*
 
 ## The outcome
 
-When a shopper asks an AI assistant about your store, the assistant has your own description to read instead of a generic one. On Shopify, your store already serves a default guide to these assistants, and it says nothing about what you sell. This capability writes the replacement: your business in your own words, your product lines and who each one is for, the facts each product page carries, the statements you stand behind word for word, your policy and help pages, and the things the store never claims.
+When a shopper asks an AI assistant about your store, the assistant has your own description to read instead of a generic one. On Shopify, your store already serves a default guide to these assistants, and it says nothing about what you sell. This workflow template writes the replacement: your business in your own words, your product lines and who each one is for, the facts each product page carries, the statements you stand behind word for word, your policy and help pages, and the things the store never claims.
 
 Every sentence comes from the store facts file you approved, and the report shows where each line came from. No adjective, comparison or benefit gets in that you have not cleared. No email address, phone number or price goes in. And nothing in it asks an assistant to recommend you. Its purpose is accuracy: an assistant that reads it describes your store the way you would.
 
@@ -59,9 +59,9 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template from its own work on store guides, already public under the MIT licence. It was editorially reviewed on 9 November 2026. It was tried once on its invented example in Claude on 9 November 2026; the record is published with it and lists the ambiguities the run found. One run covered only the complete-inputs case. Small clarifications were added after that run, on how policy labels are written, which links are counted and how lines are traced; the record lists these edits, which have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template from its own work on store guides, already public under the MIT licence. It was editorially reviewed on 9 November 2026. It was tried once on its invented example in Claude on 9 November 2026; the record is published with it and lists the ambiguities the run found. One run covered only the complete-inputs case. Small clarifications were added after that run, on how policy labels are written, which links are counted and how lines are traced; the record lists these edits, which have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on your own facts file, plus hard cases written in advance, each with its expected behavior: a claim word in your own business line, a policy page missing from the address list, a contact address that is only an email, a request to add a line you have not cleared. The owner reads the guide line by line, and the operator opens every link after placing it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record.
+Testing in your environment means running it on your own facts file, plus hard cases written in advance, each with its expected behavior: a claim word in your own business line, a policy page missing from the address list, a contact address that is only an email, a request to add a line you have not cleared. The owner reads the guide line by line, and the operator opens every link after placing it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -72,11 +72,11 @@ Testing in your environment means running it on your own facts file, plus hard c
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -86,7 +86,7 @@ Testing in your environment means running it on your own facts file, plus hard c
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Store facts file](../store-facts-file/)
 - [AI visibility audit for an online store](../ai-visibility-audit-for-an-online-store/)
@@ -94,4 +94,4 @@ Testing in your environment means running it on your own facts file, plus hard c
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

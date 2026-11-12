@@ -1,10 +1,10 @@
 {
   "id": "product-page-facts-gap-review",
   "name": "Product-page facts gap review",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Product by product, your merchandiser sees what a shopper's AI assistant needs from each page and does not get: facts the description leaves out, images with no alt text, buyer questions left unanswered. Each gap comes with a sourced draft to fill it, waiting for the owner's approval.",
-  "directory": "https://fullypowered.ai/capabilities/product-page-facts-gap-review/",
+  "directory": "https://fullypowered.ai/workflow templates/product-page-facts-gap-review/",
   "primary_function": "functions/marketing-and-content",
   "functions": [
     "functions/marketing-and-content"

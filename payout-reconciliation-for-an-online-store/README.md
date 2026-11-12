@@ -2,11 +2,11 @@
 
 Each month the bookkeeper gets every payout from the store's processors and marketplaces taken apart and tied to the bank: the orders, refunds, chargebacks and fees inside it, each fee checked against the agreed rate, every difference listed with its evidence. A person posts the entries and raises any dispute.
 
-*Capability template · E-commerce and retail · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/payout-reconciliation-for-an-online-store/)*
+*Workflow template · E-commerce and retail · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/payout-reconciliation-for-an-online-store/)*
 
 ## The outcome
 
-A payout is a single number that hides a month of activity. Sales go in; refunds, chargebacks, the channel's fees, advertising and any money held back come out; whatever is left lands in the bank a day or two later. This capability opens every payout up and accounts for each part of it.
+A payout is a single number that hides a month of activity. Sales go in; refunds, chargebacks, the channel's fees, advertising and any money held back come out; whatever is left lands in the bank a day or two later. This workflow template opens every payout up and accounts for each part of it.
 
 Each sale and refund is matched to its order. Each payout is added up from its own lines and found in the bank. Each fee is worked out again from the rate the channel published or agreed with you, so an overcharge of a few cents on one card payment is caught as surely as a wrong commission rate on a marketplace sale. Each channel gets one line that runs from gross sales down to the money paid out, and it either ties or shows the gap.
 
@@ -29,7 +29,7 @@ The owner or finance lead reviews the pack and approves it. A person posts the e
 - **Last month's open items:** payouts still on their way, orders not yet paid out, differences still open.
 - **A few settings:** who prepares, approves, posts and decides on disputes; each channel's name on the bank statement; how long each channel usually takes to pay out a sale; how many business days a payout may take to arrive.
 
-The capability names the column headings it expects in each export. If yours differ, it stops and asks which column is which rather than guessing.
+The workflow template names the column headings it expects in each export. If yours differ, it stops and asks which column is which rather than guessing.
 
 ## What comes out
 
@@ -55,7 +55,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Growth & scaling](https://fullypowered.ai/situations/growth-and-scaling/): when a second channel or a busy season makes checking payouts by eye impossible.
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/): when the month's payout checks live in one person's spreadsheet and should live in a pack anyone can review.
 
-It is the step before [bank reconciliation preparation](https://fullypowered.ai/capabilities/bank-reconciliation-preparation/), which then ties the whole bank account to the books, and it sits beside [chargeback response pack](https://fullypowered.ai/capabilities/chargeback-response-pack/), which answers a single card dispute.
+It is the step before [bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/), which then ties the whole bank account to the books, and it sits beside [chargeback response pack](https://fullypowered.ai/workflows/chargeback-response-pack/), which answers a single card dispute.
 
 ## What has to change for your company
 
@@ -63,9 +63,9 @@ List the channels you are paid by and how each one appears on your bank statemen
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words, drawing on two published methods that are credited with it. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the ambiguities it met and the small edits made afterward, which have not been run again. That run covered an ordinary month; it did not reach a column heading that does not match, a foreign currency, a payout that does not add up or a request to post or adjust. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template in its own words, drawing on two published methods that are credited with it. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record of that run is published with it, and lists the ambiguities it met and the small edits made afterward, which have not been run again. That run covered an ordinary month; it did not reach a column heading that does not match, a foreign currency, a payout that does not add up or a request to post or adjust. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on two or three past months your bookkeeper has already closed, with hard cases written in advance: an export whose headings differ, a payout on the last business day of the month, a deposit that matches nothing, a refund where the channel keeps part of its fee. The bookkeeper checks every fee difference by hand against the rate before anything is raised. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on two or three past months your bookkeeper has already closed, with hard cases written in advance: an export whose headings differ, a payout on the last business day of the month, a deposit that matches nothing, a refund where the channel keeps part of its fee. The bookkeeper checks every fee difference by hand against the rate before anything is raised. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -76,11 +76,11 @@ Testing in your environment means running it on two or three past months your bo
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -90,12 +90,12 @@ Testing in your environment means running it on two or three past months your bo
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Bank reconciliation preparation](https://fullypowered.ai/capabilities/bank-reconciliation-preparation/)
+- [Bank reconciliation preparation](https://fullypowered.ai/workflow templates/bank-reconciliation-preparation/)
 - [Chargeback response pack](../chargeback-response-pack/)
-- [Month-end close checklist](https://fullypowered.ai/capabilities/month-end-close-checklist/)
+- [Month-end close checklist](https://fullypowered.ai/workflow templates/month-end-close-checklist/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
