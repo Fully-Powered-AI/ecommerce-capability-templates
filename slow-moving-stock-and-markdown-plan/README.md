@@ -2,7 +2,7 @@
 
 Before a seasonal reset, the merchandiser or store owner gets one plan from the sales and stock exports: each item's sell-through and weeks of cover, the cash tied up in dead and slow stock, and a markdown plan in dated steps with the margin each leaves and a date to stop. The owner decides every price.
 
-*Workflow template · E-commerce and retail · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/slow-moving-stock-and-markdown-plan/)*
+*Workflow template · E-commerce and retail · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/slow-moving-stock-and-markdown-plan/)*
 
 ## The outcome
 
@@ -91,9 +91,9 @@ Testing in your environment means running it on a past season your merchandiser 
 ## Related workflow templates
 
 - [Inventory reorder plan](../inventory-reorder-plan/)
-- [Price change review](https://fullypowered.ai/workflow templates/price-change-review/)
+- [Price change review](https://fullypowered.ai/workflows/price-change-review/)
 - [Store facts file](../store-facts-file/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

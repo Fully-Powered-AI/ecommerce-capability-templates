@@ -2,7 +2,7 @@
 
 Each month the bookkeeper gets every payout from the store's processors and marketplaces taken apart and tied to the bank: the orders, refunds, chargebacks and fees inside it, each fee checked against the agreed rate, every difference listed with its evidence. A person posts the entries and raises any dispute.
 
-*Workflow template · E-commerce and retail · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/payout-reconciliation-for-an-online-store/)*
+*Workflow template · E-commerce and retail · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/)*
 
 ## The outcome
 
@@ -92,9 +92,9 @@ Testing in your environment means running it on two or three past months your bo
 
 ## Related workflow templates
 
-- [Bank reconciliation preparation](https://fullypowered.ai/workflow templates/bank-reconciliation-preparation/)
+- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/)
 - [Chargeback response pack](../chargeback-response-pack/)
-- [Month-end close checklist](https://fullypowered.ai/workflow templates/month-end-close-checklist/)
+- [Month-end close checklist](https://fullypowered.ai/workflows/month-end-close-checklist/)
 
 ## Make it yours
 

@@ -2,7 +2,7 @@
 
 Product by product, your merchandiser sees what a shopper's AI assistant needs from each page and does not get: facts the description leaves out, images with no alt text, buyer questions left unanswered. Each gap comes with a sourced draft to fill it, waiting for the owner's approval.
 
-*Workflow template · E-commerce and retail · Marketing and content · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/product-page-facts-gap-review/)*
+*Workflow template · E-commerce and retail · Marketing and content · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/product-page-facts-gap-review/)*
 
 ## The outcome
 
@@ -81,9 +81,9 @@ Testing in your environment means running it on a handful of products your merch
 
 ## Related workflow templates
 
-- [Competitor profile from public pages](https://fullypowered.ai/workflow templates/competitor-profile-from-public-pages/)
-- [Customer reply drafting](https://fullypowered.ai/workflow templates/customer-reply-drafting/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Competitor profile from public pages](https://fullypowered.ai/workflows/competitor-profile-from-public-pages/)
+- [Customer reply drafting](https://fullypowered.ai/workflows/customer-reply-drafting/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

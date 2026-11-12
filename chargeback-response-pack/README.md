@@ -2,7 +2,7 @@
 
 When a card dispute lands, the store owner or finance lead gets one pack: the dispute matched to its order, the evidence its reason calls for marked found or missing, a response drafted well inside the deadline, and the store's dispute ratio for the month. A person decides whether to contest and submits it.
 
-*Workflow template · E-commerce and retail · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/chargeback-response-pack/)*
+*Workflow template · E-commerce and retail · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/chargeback-response-pack/)*
 
 ## The outcome
 
@@ -87,9 +87,9 @@ Testing in your environment means running it on a few past disputes whose outcom
 
 ## Related workflow templates
 
-- [Complaint and refund request handling](https://fullypowered.ai/workflow templates/complaint-and-refund-request-handling/)
+- [Complaint and refund request handling](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/)
 - [Store facts file](../store-facts-file/)
-- [Bank reconciliation preparation](https://fullypowered.ai/workflow templates/bank-reconciliation-preparation/)
+- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/)
 
 ## Make it yours
 

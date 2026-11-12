@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before a seasonal reset, the merchandiser or store owner gets one plan from the sales and stock exports: each item's sell-through and weeks of cover, the cash tied up in dead and slow stock, and a markdown plan in dated steps with the margin each leaves and a date to stop. The owner decides every price.",
-  "directory": "https://fullypowered.ai/workflow templates/slow-moving-stock-and-markdown-plan/",
+  "directory": "https://fullypowered.ai/workflows/slow-moving-stock-and-markdown-plan/",
   "primary_function": "functions/supply-chain-and-inventory",
   "functions": [
     "functions/supply-chain-and-inventory",

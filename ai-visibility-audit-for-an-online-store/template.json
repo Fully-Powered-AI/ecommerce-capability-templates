@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "A store owner or marketer gets a dated audit of how the store reads to AI assistants and shopping agents, from its own saved public pages: eighteen fixed checks with evidence, a fix list in priority order, and a record of what the assistants actually said. Nothing on the store is changed.",
-  "directory": "https://fullypowered.ai/workflow templates/ai-visibility-audit-for-an-online-store/",
+  "directory": "https://fullypowered.ai/workflows/ai-visibility-audit-for-an-online-store/",
   "primary_function": "functions/marketing-and-content",
   "functions": [
     "functions/marketing-and-content",

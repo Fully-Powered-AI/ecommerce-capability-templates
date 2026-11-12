@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When a card dispute lands, the store owner or finance lead gets one pack: the dispute matched to its order, the evidence its reason calls for marked found or missing, a response drafted well inside the deadline, and the store's dispute ratio for the month. A person decides whether to contest and submits it.",
-  "directory": "https://fullypowered.ai/workflow templates/chargeback-response-pack/",
+  "directory": "https://fullypowered.ai/workflows/chargeback-response-pack/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

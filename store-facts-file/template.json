@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The person who runs an online store builds the one file every other store workflow template reads first: what the store sells, the facts each product page should state, the statements it stands behind, buyers' questions, policies, roles and access. Nothing on the store is changed.",
-  "directory": "https://fullypowered.ai/workflow templates/store-facts-file/",
+  "directory": "https://fullypowered.ai/workflows/store-facts-file/",
   "primary_function": "functions/marketing-and-content",
   "functions": [
     "functions/marketing-and-content",

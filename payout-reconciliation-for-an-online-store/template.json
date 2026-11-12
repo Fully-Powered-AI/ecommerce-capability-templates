@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Each month the bookkeeper gets every payout from the store's processors and marketplaces taken apart and tied to the bank: the orders, refunds, chargebacks and fees inside it, each fee checked against the agreed rate, every difference listed with its evidence. A person posts the entries and raises any dispute.",
-  "directory": "https://fullypowered.ai/workflow templates/payout-reconciliation-for-an-online-store/",
+  "directory": "https://fullypowered.ai/workflows/payout-reconciliation-for-an-online-store/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

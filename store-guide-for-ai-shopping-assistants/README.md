@@ -2,7 +2,7 @@
 
 The person who runs an online store gets the plain-language guide a shopper's AI assistant reads about the store: what it sells, for whom, which product line suits which need, and where the policies are. Every line traces to the approved store facts file, and a person places it.
 
-*Workflow template · E-commerce and retail · Marketing and content · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/store-guide-for-ai-shopping-assistants/)*
+*Workflow template · E-commerce and retail · Marketing and content · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/store-guide-for-ai-shopping-assistants/)*
 
 ## The outcome
 

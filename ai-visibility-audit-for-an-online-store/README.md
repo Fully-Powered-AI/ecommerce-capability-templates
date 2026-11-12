@@ -2,7 +2,7 @@
 
 A store owner or marketer gets a dated audit of how the store reads to AI assistants and shopping agents, from its own saved public pages: eighteen fixed checks with evidence, a fix list in priority order, and a record of what the assistants actually said. Nothing on the store is changed.
 
-*Workflow template · E-commerce and retail · Marketing and content · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/ai-visibility-audit-for-an-online-store/)*
+*Workflow template · E-commerce and retail · Marketing and content · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/ai-visibility-audit-for-an-online-store/)*
 
 ## The outcome
 
@@ -93,7 +93,7 @@ Testing in your environment means running it on your own store's saved pages, pl
 
 - [Store facts file](../store-facts-file/)
 - [Product-page facts gap review](../product-page-facts-gap-review/)
-- [Website findability audit](https://fullypowered.ai/workflow templates/website-findability-audit/)
+- [Website findability audit](https://fullypowered.ai/workflows/website-findability-audit/)
 
 ## Make it yours
 

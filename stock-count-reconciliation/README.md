@@ -2,7 +2,7 @@
 
 After a physical count, the bookkeeper and the warehouse or store lead get every item counted beside the quantity and value in the books, each difference in units and money, what to check for it, and the items to recount. Nothing is adjusted until a person approves.
 
-*Workflow template · E-commerce and retail · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/stock-count-reconciliation/)*
+*Workflow template · E-commerce and retail · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/stock-count-reconciliation/)*
 
 ## The outcome
 
@@ -92,8 +92,8 @@ Testing in your environment means running it on one or two past counts your book
 ## Related workflow templates
 
 - [Inventory reorder plan](../inventory-reorder-plan/)
-- [Month-end close checklist](https://fullypowered.ai/workflow templates/month-end-close-checklist/)
-- [Bank reconciliation preparation](https://fullypowered.ai/workflow templates/bank-reconciliation-preparation/)
+- [Month-end close checklist](https://fullypowered.ai/workflows/month-end-close-checklist/)
+- [Bank reconciliation preparation](https://fullypowered.ai/workflows/bank-reconciliation-preparation/)
 
 ## Make it yours
 

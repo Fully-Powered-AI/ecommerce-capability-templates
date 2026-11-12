@@ -2,7 +2,7 @@
 
 The person who runs an online store builds the one file every other store workflow template reads first: what the store sells, the facts each product page should state, the statements it stands behind, buyers' questions, policies, roles and access. Nothing on the store is changed.
 
-*Workflow template · E-commerce and retail · Marketing and content · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/store-facts-file/)*
+*Workflow template · E-commerce and retail · Marketing and content · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/store-facts-file/)*
 
 ## The outcome
 
@@ -87,9 +87,9 @@ Testing in your environment means running it on your own store, plus hard cases 
 
 ## Related workflow templates
 
-- [Customer reply drafting](https://fullypowered.ai/workflow templates/customer-reply-drafting/)
-- [Website findability audit](https://fullypowered.ai/workflow templates/website-findability-audit/)
-- [Launch checklist](https://fullypowered.ai/workflow templates/launch-checklist/)
+- [Customer reply drafting](https://fullypowered.ai/workflows/customer-reply-drafting/)
+- [Website findability audit](https://fullypowered.ai/workflows/website-findability-audit/)
+- [Launch checklist](https://fullypowered.ai/workflows/launch-checklist/)
 
 ## Make it yours
 

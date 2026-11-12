@@ -2,7 +2,7 @@
 
 The store owner or buyer gets one plan from the latest sales and stock exports: each item's sales rate, the day it could run out, its reorder point and safety stock, what to order, what is not moving, and a draft purchase order per supplier. Nothing is ordered until a person approves.
 
-*Workflow template · E-commerce and retail · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)*
+*Workflow template · E-commerce and retail · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/inventory-reorder-plan/)*
 
 ## The outcome
 
@@ -92,8 +92,8 @@ Testing in your environment means running it on two or three past weeks your buy
 ## Related workflow templates
 
 - [Store facts file](../store-facts-file/)
-- [Vendor quote comparison](https://fullypowered.ai/workflow templates/vendor-quote-comparison/)
-- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflow templates/supplier-bill-review-and-payment-run-preparation/)
+- [Vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/)
+- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/)
 
 ## Make it yours
 

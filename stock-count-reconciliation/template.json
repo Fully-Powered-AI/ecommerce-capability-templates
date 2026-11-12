@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "After a physical count, the bookkeeper and the warehouse or store lead get every item counted beside the quantity and value in the books, each difference in units and money, what to check for it, and the items to recount. Nothing is adjusted until a person approves.",
-  "directory": "https://fullypowered.ai/workflow templates/stock-count-reconciliation/",
+  "directory": "https://fullypowered.ai/workflows/stock-count-reconciliation/",
   "primary_function": "functions/supply-chain-and-inventory",
   "functions": [
     "functions/supply-chain-and-inventory",
