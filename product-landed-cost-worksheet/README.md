@@ -2,7 +2,7 @@
 
 After an import shipment lands, the owner or bookkeeper gets one worksheet: freight, duty, brokerage, insurance and inbound fees from the invoices spread over each product by a stated method, the landed unit cost beside the cost the store records, and the margin left. A person updates any cost.
 
-*Workflow template · E-commerce and retail · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/product-landed-cost-worksheet/)*
+*Workflow template · E-commerce and retail · Supply chain and inventory · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/product-landed-cost-worksheet/)*
 
 ## The outcome
 
